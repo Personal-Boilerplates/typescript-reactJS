@@ -1,13 +1,19 @@
 import React from 'react';
+import YourFirstComponent from 'shared/components/YourFirstComponent';
+import { PageFC } from 'shared/types/customReactTypes';
+import * as S from './styles';
 
-import { Container } from './styles';
-
-const Home: React.FC = () => {
+const Home: PageFC = () => {
   return (
-    <Container className="row">
-      <h1 className="col s12 m12 l12">Home</h1>
-    </Container>
+    <S.Container>
+      <h1>Home</h1>
+      <YourFirstComponent>Your first Component</YourFirstComponent>
+    </S.Container>
   );
+};
+
+Home.route = {
+  path: '/',
 };
 
 export default Home;

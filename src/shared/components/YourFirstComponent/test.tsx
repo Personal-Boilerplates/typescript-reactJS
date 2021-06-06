@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import {{pascalCase name}} from '.';
+import YourFirstComponent from '.';
 
-describe('<{{pascalCase name}} />', () => {
+describe('<YourFirstComponent />', () => {
   it('renders without crashing', () => {
-    render(<{{pascalCase name}} />);
+    render(<YourFirstComponent />);
   });
 });

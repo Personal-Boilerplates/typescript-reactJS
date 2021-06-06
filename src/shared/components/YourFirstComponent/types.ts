@@ -1,9 +1,9 @@
 import React from 'react';
 
-export type {{pascalCase name}}PropsType = {
+export type YourFirstComponentPropsType = {
   style?: React.CSSProperties;
   innerRef?(e: Element | null): void;
   className?: string;
 };
 
-export type {{pascalCase name}}Type = React.FC<{{pascalCase name}}PropsType>;
+export type YourFirstComponentType = React.FC<YourFirstComponentPropsType>;

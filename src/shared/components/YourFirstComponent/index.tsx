@@ -2,7 +2,7 @@ import React from 'react';
 import * as T from './types';
 import * as S from './styles';
 
-const {{pascalCase name}}: T.{{pascalCase name}}Type = ({
+const YourFirstComponent: T.YourFirstComponentType = ({
   children,
   innerRef,
   ...rest
@@ -14,4 +14,4 @@ const {{pascalCase name}}: T.{{pascalCase name}}Type = ({
   );
 };
 
-export default {{pascalCase name}};
+export default YourFirstComponent;
